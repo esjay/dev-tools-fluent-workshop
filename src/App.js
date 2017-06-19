@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './dev-tools.jpg';
 import './App.css';
 
 class App extends Component {
@@ -8,10 +8,10 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>Advanced Debugging with Chrome Developer Tools</h2>
         </div>
         <p className="App-intro">
-          not better
+          Helping you to be a better pairing partner with Chrome Dev Tools.
         </p>
       </div>
     );

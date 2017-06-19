@@ -5,6 +5,7 @@
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
+  border-radius: 50%;
 }
 
 .App-header {
@@ -16,6 +17,15 @@
 
 .App-intro {
   font-size: large;
+}
+
+.App-posts {
+  display: flex;
+  text-align: left;
+}
+
+.App-posts li {
+  border: 0.1em solid #bbb;
 }
 
 @keyframes App-logo-spin {
