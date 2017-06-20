@@ -22,13 +22,22 @@
 .App-posts {
   display: flex;
   text-align: left;
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
 }
 
 .App-posts li {
   border: 0.1em solid #bbb;
+  padding: 0.5em;
+  width: 50%;
 }
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
 }
