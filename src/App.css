@@ -36,6 +36,20 @@
   flex-wrap: wrap;
 }
 
+@media (min-width: 450px) and (max-width: 900px){
+  .App-posts li {
+    width: 50%;
+    height: auto;
+  }
+}
+
+@media (max-width: 450px) {
+  .App-posts li {
+    width: 100%;
+    height: auto;
+  }
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
