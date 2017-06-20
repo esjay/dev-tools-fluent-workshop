@@ -20,7 +20,7 @@
 }
 
 .App-posts {
-  display: flex;
+  display: block;
   text-align: left;
   padding: 0;
   width: 100%;
@@ -30,7 +30,10 @@
 .App-posts li {
   border: 0.1em solid #bbb;
   padding: 0.5em;
-  width: 50%;
+  width: 33%;
+  display: inline-flex;
+  height: 5.5em;
+  flex-wrap: wrap;
 }
 
 @keyframes App-logo-spin {
